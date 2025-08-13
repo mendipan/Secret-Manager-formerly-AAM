@@ -69,8 +69,9 @@ Before you run the script fill in the required details as follows:
 	"GroupName":"DualAccountGroup"
 }
 ```
-**_Notice:_** In Privilege Cloud Shared Services environment, the PVWAURL should be PVWA API URL as described here: \
-https://docs.cyberark.com/Product-Doc/OnlineHelp/PrivCloud-SS/latest/en/Content/WebServices/ISP-Auth-APIs.htm#APIURLstructure
+**_Notice:_** In Privilege Cloud Shared Services environment, the PVWAURL should be: ```https://<subdomain>.privilegecloud.cyberark.cloud/PasswordVault```
+
+As described here: [ISPSS API Docs](https://api-docs.cyberark.com/docs/ispss-api-auth/2c297daca8a97-api-token-authentication-for-cyber-ark-identity-security-platform-shared-services#api-token-authentication-for-cyberark-identity-security-platform-shared-services:~:text=cyberark.cloud/api-,Privilege%20Cloud,-https%3A//%3Csubdomain%3E.privilegecloud)
 
 - Fill in Policy-DualAccount-Creation.json optional properties
 
